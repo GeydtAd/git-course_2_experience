@@ -15,5 +15,14 @@ elif d == "//":
     print("Целочисленное деление: a // b = ", a // b)
 elif d == "**":
     print("Возведение в степень: a ** b = ", a ** b)
-    
+# todo Коментарии можно подкрашивать:
+# ! Red (!) 
+# ? Blue (?) 
+# * Green (*)
+# ^ Yellow (^)
+# & Pink (&)
+# ~ Purple (~)
+# todo Mustard (todo)
+#  Grey (//)
+# Но работает это не во всех IDE
     
