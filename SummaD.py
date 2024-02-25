@@ -1,3 +1,5 @@
+# модуль decimal реализует десятичное число с точностью до 28 десятичных цифр
+# Источник: https://egorovegor.ru/ispolzovanie-modulya-decimal-v-python
 from decimal import Decimal
 import time
 
@@ -15,4 +17,4 @@ for _ in range(1_000_000):
 
 decimal_time = time.time() - start
 
-print(round(decimal_time / float_time, 3))
+print(round(decimal_time / float_time, 4))
